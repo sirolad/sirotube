@@ -1,0 +1,40 @@
+{
+  "name": "sirotube",
+  "version": "1.0.0",
+  "description": "My youtube built with MEAN",
+  "main": "server.js",
+  "engines": {
+    "node": "0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-sakande/sirotube.git"
+  },
+  "keywords": [
+    "MEAN"
+  ],
+  "author": "Surajudeen Akande",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-sakande/sirotube/issues"
+  },
+  "homepage": "https://github.com/andela-sakande/sirotube#readme",
+  "dependencies": {
+    "async": "^1.2.1",
+    "bcrypt": "^0.8.3",
+    "body-parser": "^1.12.4",
+    "cloudinary": "^1.2.1",
+    "cors": "^2.7.1",
+    "dotenv": "^1.1.0",
+    "express": "^4.12.4",
+    "gravatar": "^1.1.1",
+    "jwt-simple": "^0.5.0",
+    "lodash": "^3.10.0",
+    "moment": "^2.13.0",
+    "mongoose": "^4.0.5",
+    "morgan": "^1.5.3"
+  }
+}
