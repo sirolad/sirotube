@@ -61,6 +61,6 @@ app.get('*', function(req, res) {
 /**
  * Start Express server.
  */
-app.listen( port, function(){
+app.listen(port, function(){
   console.log("Sirotube Server Listening on port ", port );
 });
