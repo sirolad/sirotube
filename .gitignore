@@ -2,3 +2,4 @@
 .env
 npm-debug.log
 /public/vendor
+/.idea/
