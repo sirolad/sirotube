@@ -46,7 +46,7 @@ app.use(express.static( __dirname + '/public')); //use to serve static files lik
 /**
  * Routes Configuration
  */
-app.route(app);
+route(app);
 
 //configure any route whatsoever to redirect to angular
 app.get('*', function(req, res) {

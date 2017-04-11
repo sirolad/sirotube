@@ -12,7 +12,7 @@ module.exports = {
    * @return Void
    */
   welcome: function(req, res){
-    return res.status(200).json({ message: 'Welcome to Yourtube Api'});
+    return res.status(200).json({ message: 'Welcome to Sirotube Api'});
   },
 
   /**
