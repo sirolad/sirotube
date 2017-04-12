@@ -52,8 +52,9 @@
     "cloudinary_ng": "^2.1.1"
   },
   "resolutions": {
-    "angular": "1.4.3",
-    "satellizer": "^0.14.1"
+    "angular": ">1.2.0",
+    "satellizer": "^0.14.1",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "cloudinary_ng": "^2.1.1"

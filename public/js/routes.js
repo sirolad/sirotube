@@ -36,6 +36,13 @@ appRoutes.config(['$routeProvider', '$locationProvider', function($routeProvider
     .when('/page/about', {
         templateUrl: './views/pages/about.client.view.html'
     })
+    .when('/upload', {
+        templateUrl: './views/pages/upload.client.view.html',
+        controller: 'UploadController',
+        resolve: {
+         loginRequired: loginRequired
+       }
+    })
 
     .otherwise({ redirectTo: '/' });
 

@@ -9,6 +9,7 @@ var app = angular
               'ui.bootstrap',
               'appRoutes',
               'ngSanitize',
+              'ngFileUpload',
               'toastr',
               'ngLodash',
               'hc.marked',
